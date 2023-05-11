@@ -13,7 +13,7 @@ const kafka = new Kafka({
   brokers: ["localhost:9092"],
   sessionTimeout: 0,
   maxWaitTimeInMs: 0,
-  maxBytes: 100,
+  maxBytes: 10,
 });
 const consumerMap = new Map();
 
